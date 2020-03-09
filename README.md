@@ -32,5 +32,5 @@ https://app.slack.com/client/TPXR92R35/CPWM037MY
 # 挂机宏
 /script F=CreateFrame("frame")if Y then Y=nil else SendChatMessage("Let's Go","party") Y=function()StaticPopup1Button1:Click()AcceptGroup() end end F:SetScript ("OnUpdate",Y)
 
-# Screenshot of it working in WOW
+# Screenshot of it working in wow
 
