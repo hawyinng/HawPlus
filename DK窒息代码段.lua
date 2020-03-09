@@ -1,10 +1,10 @@
 --增益BUFF
-local shown21, unit21, spell21, stack21, time21 = msTMW(2,1)  --晕
+local shown21, unit21, spell21, stack21, time21 = msTMW(2,1) --晕
 local shown22, unit22, spell22, stack22, time22 = msTMW(2,2) --减速
-local shown25, unit25, spell25, stack25, time25 = msTMW(2,5) -- 递减
-local shown26, unit26, spell26, stack26, time26 = msTMW(2,6) -- 减伤
+local shown25, unit25, spell25, stack25, time25 = msTMW(2,5) --递减
+local shown26, unit26, spell26, stack26, time26 = msTMW(2,6) --减伤
 local shown27, unit27, spell27, stack27, time27 = msTMW(2,7) --爆发BUFF
-local shown28, unit28, spell28, stack28, time28 = msTMW(2,8) -- 免疫
+local shown28, unit28, spell28, stack28, time28 = msTMW(2,8) --免疫
 
 flag=4
 
