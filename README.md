@@ -9,7 +9,7 @@ HawPlus_classic：World of Warcraft 怀旧服
 
 https://winifix.github.io/
 
-https://app.slack.com/client/TPXR92R35/GPZ1H32US
+https://app.slack.com/client/TPXR92R35/CPY0XCZEF
 
 
 # 宏使用说明
