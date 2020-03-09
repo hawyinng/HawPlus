@@ -1,6 +1,10 @@
 # HawPlus
 World of Warcraft 8.0版本，自动输出脚本插件。
 
+HawPlus：World of Warcraft Battle for Azeroth 8.0
+
+HawPlus_classic：World of Warcraft 怀旧版
+
 # 宏使用说明
 # 启动宏
 #showtooltip 心灵冰冻
