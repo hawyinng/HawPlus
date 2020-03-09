@@ -353,5 +353,4 @@ if (UnitAffectingCombat("target") or GetUnitName("target")=="训练假人" or Ge
       num=1
       msR("冰霜打击","target")      
    end
-   
 end
