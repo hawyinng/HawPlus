@@ -8,13 +8,18 @@ HawPlus_classic：World of Warcraft 怀旧版
 # 宏使用说明
 # 启动宏
 #showtooltip 心灵冰冻
+
 /startattack
+
 /run msSCS("心灵冰冻,邪恶输出")
+
 /run msScriptList("start")
 
 # 停止宏
 #showtooltip
+
 /stopcasting
+
 /run msScriptList("stop")
 
 # 挂机宏
