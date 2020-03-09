@@ -22,7 +22,7 @@ function zhixi()
       end
    end
    
-   --狂徒
+   --冰霜
    if GetSpecialization()==2 then
       if not shown21 and not shown28 and ((not shown25) or (shown25 and stack25>=50)) 
       and not msGUB("227847,46924,闪避,还击,48792,287081,118038","target") then
