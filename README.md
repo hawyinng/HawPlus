@@ -1,1 +1,18 @@
 # HawPlus
+World of Warcraft 8.0版本，自动输出脚本插件。
+
+# 宏使用说明
+# 启动宏
+#showtooltip 心灵冰冻
+/startattack
+/run msSCS("心灵冰冻,邪恶输出")
+/run msScriptList("start")
+
+# 停止宏
+#showtooltip
+/stopcasting
+/run msScriptList("stop")
+
+# 挂机宏
+/script F=CreateFrame("frame")if Y then Y=nil else SendChatMessage("Let's Go","party") Y=function()StaticPopup1Button1:Click()AcceptGroup() end end F:SetScript ("OnUpdate",Y)
+
