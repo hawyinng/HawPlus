@@ -1,0 +1,19 @@
+## Interface: 80300
+## Title: |cFF8000FF Stone World of Warcraft API Enhancing System|r
+## Title-zhCN: <|cFFFF4500HawPlus|r> |cFF00BFFFHawPlus插件系统|r
+## Version: 3.0
+## Notes: |cFFD700 Improve the existing WoW APIs|r
+## Notes-zhCN: |cFFFFD700对WOW现有的API函数进行包装与重新设计并带脚本管理系统.|r
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariablesPerCharacter: HawPlushelper HawPlusLuaList WowLua_DB
+
+
+
+
+HawPlus.xml
+
+
+
+
+
