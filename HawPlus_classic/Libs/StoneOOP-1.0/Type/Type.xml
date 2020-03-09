@@ -1,0 +1,16 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="Type.lua" />
+	<Script file="Var.lua" />
+	<Script file="Number.lua" />
+	<Script file="Number.Int.lua" />
+	<Script file="Number.UInt.lua" />
+	<Script file="Number.Float.lua" />
+	<Script file="Number.UFloat.lua" />
+	<Script file="Bool.lua" />
+	<Script file="String.lua" />
+	<Script file="Table.lua" />
+	<Script file="Function.lua" />
+	<Script file="UserData.lua" />
+	<Script file="Thread.lua" />
+</Ui>

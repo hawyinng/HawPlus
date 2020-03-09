@@ -1,0 +1,10 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="System.lua"/>
+	<Script file="Errors\Error.lua"/>
+	<Script file="Locale\Locale.lua"/>
+	<Script file="Timers\Timer.lua"/>
+	<Script file="Events\Event.lua"/>
+	<Script file="WTF\WTF.lua"/>
+	<Script file="FSM\FSM.lua"/>
+</Ui>

@@ -1,0 +1,22 @@
+﻿<Bindings>
+	<Binding name="HawPlus_classicShow" header="HawPlus_classic">
+		if ScenarioButton:IsShown() then
+			ScenarioButton:Hide()
+		else
+			ScenarioButton:Show()
+		end
+	</Binding>	
+	<Binding name="HawPlus_classicOnce" >
+		msScriptList("once")
+	</Binding>
+	<Binding name="HawPlus_classicStartStop" >
+		msScriptList("startstop")
+	</Binding>
+	<Binding name="HawPlus_classicStart" >
+		msScriptList("start")
+	</Binding>
+	<Binding name="HawPlus_classicStop" >
+		msScriptList("stop")
+	</Binding>	
+</Bindings>
+
