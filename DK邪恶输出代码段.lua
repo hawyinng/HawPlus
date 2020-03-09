@@ -359,6 +359,7 @@ if (UnitAffectingCombat("target") or GetUnitName("target")=="训练假人" or Ge
       msR("凋零缠绕","target")
    end
    
+   --AOE
    if flag==6 or UnitIsPlayer("target") then
       if msGBC("303568","target","player")>=3 and IsEquippedItem("艾什凡的锋锐珊瑚") and msGCD("艾什凡的锋锐珊瑚")==0 then
          msR("艾什凡的锋锐珊瑚")
