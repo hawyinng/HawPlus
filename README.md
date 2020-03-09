@@ -5,7 +5,7 @@ HawPlus：World of Warcraft Battle for Azeroth 8.0
 
 HawPlus_classic：World of Warcraft 怀旧服
 
-解锁器unlocker:
+解锁器unlocker：
 https://winifix.github.io/
 
 
