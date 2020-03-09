@@ -43,5 +43,4 @@ function zhixi()
          end
       end
    end
-   
 end
