@@ -533,7 +533,6 @@ msSSS = msStartStopScript;
 --- 勾选string中的所有脚本 ---------------------
 local str = "";
 function msStartCheckScript(string)
-	--msSSS("输出", "start")
 	if str ~= string then
 		for _, entry in ipairs(WowLua_DB.pages) do
 			entry.checked = false
@@ -631,7 +630,7 @@ SpellTargettext:SetPoint("CENTER",0,-50)
 --		end
 --end);
 
------------------------- add by lin at 20180803 --------------------------------
+------------------------ add by medony at 20180803 --------------------------------
 local API = System.WoWAPI;
 function msR(spell, target)
 	local text = SpellTargettext:GetText()
