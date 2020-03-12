@@ -5,10 +5,7 @@ local shown25, unit25, spell25, stack25, time25 = msTMW(2,5) -- 晕
 local shown26, unit26, spell26, stack26, time26 = msTMW(2,6) -- 减伤
 local shown27, unit27, spell27, stack27, time27 = msTMW(2,7) --爆发BUFF
 local shown28, unit28, spell28, stack28, time28 = msTMW(2,8) -- 免疫
---[[if msICS("focus","地震术") and msISC("恐惧","focus",true) then 
-   msR("/stopcasting\n/cast [target=focus] 恐惧\n/cast 恐惧")
-   return
-end]]
+
 if not num then
    num=1
 end
@@ -197,5 +194,4 @@ if UnitAffectingCombat("player") then
    if msRuneNumber()>=3 and msISC("心脏打击","target") then
       msR("心脏打击","target")
    end
-   
 end
