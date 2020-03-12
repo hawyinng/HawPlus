@@ -632,7 +632,7 @@ SpellTargettext:SetPoint("CENTER",0,-50)
 --		end
 --end);
 
------------------------- add by lin at 20180803 --------------------------------
+------------------------ add by medony at 20180803 --------------------------------
 local API = System.WoWAPI;
 function msR(spell, target)
 	if (type(spell) ~= "string") then
