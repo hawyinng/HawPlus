@@ -9,7 +9,7 @@ HawPlus_classic：World of Warcraft 怀旧服
 
 https://winifix.github.io/
 
-dark-rotations.slack.com
+www.dark-rotations.slack.com
 
 
 # 宏使用说明
