@@ -40,11 +40,6 @@ end
 if msruninspell() then
 end
 
-if msGHP("player")<50 and not msGUB("207777","target") and msTalentInfo("飘忽不定") and msISC("佯攻") then
-   msR("佯攻")
-   return
-end
-
 if msGHP("player")<50 and msISC("治疗石") then
    msR("治疗石", "player")
 end
