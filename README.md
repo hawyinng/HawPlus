@@ -5,7 +5,7 @@ HawPlus：World of Warcraft Battle for Azeroth 8.0
 
 HawPlus_classic：World of Warcraft 怀旧服
 
-解锁器unlocker：
+解锁器 unlocker：
 
 https://winifix.github.io/
 
@@ -21,12 +21,12 @@ msSCS后面写几个脚本名字，宏就自动勾选几个脚本，不用列表
 /run msSCS("心灵冰冻,邪恶输出")    
 /run msScriptList("start")  
 ****
-2.停止宏
+2.停止宏  
 #showtooltip  
 /stopcasting  
 /run msScriptList("stop")  
 ****
-3.挂机宏
+3.挂机宏  
 /script F=CreateFrame("frame")if Y then Y=nil else SendChatMessage("Let's Go","party") Y=function()StaticPopup1Button1:Click()AcceptGroup() end end F:SetScript ("OnUpdate",Y)  
 ****
 
