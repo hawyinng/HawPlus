@@ -13,7 +13,7 @@ https://dark-rotations.slack.com
 
 
 # 宏使用说明
-msSCS后面写几个脚本名字，宏就自动勾选几个脚本，不用列表勾选。----->>>>> PVP is so easy...  
+msSCS后面写几个脚本名字，宏就自动勾选几个脚本，不用列表勾选。----->>>> PVP is so easy ...  
 
 1.启动宏
 #showtooltip 心灵冰冻  
