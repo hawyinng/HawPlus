@@ -533,6 +533,7 @@ msSSS = msStartStopScript;
 --- 勾选string中的所有脚本 ---------------------
 local str = "";
 function msStartCheckScript(string)
+	--msSSS("输出", "start")
 	if str ~= string then
 		for _, entry in ipairs(WowLua_DB.pages) do
 			entry.checked = false
@@ -547,7 +548,7 @@ function msStartCheckScript(string)
 end
 msSCS = msStartCheckScript;
 
----------------------------------------------
+---------------------------------------------------------
 
 BINDING_HEADER_HawPlus = "HawPlus";
 BINDING_NAME_HawPlusShow = "显示/隐藏插件图标";
@@ -658,6 +659,10 @@ function isSpell(spell)
 
 	return false
 end
+
+function setSpell(spell)
+	SpellTargettext:SetText(format("%s",spell))
+end
 --------------------------  end -------------------------------------------------
 
 function msGetCastInfo()
@@ -697,4 +702,6 @@ function CastSpell(spell, target)
 end
 
 
-SetCVar("TargetNearestUseNew", 0)
+SetCVar("TargetNearestUseNew", "0")
+--SetCVar("targetnearestuseold", "1")
+SetCVar("alwaysCompareItems", "1")
