@@ -608,6 +608,9 @@ local School = {[1]="|CFFFFFF00",[2]="|CFFFFE680",[4]="|CFFFF8000",[8]="|CFF4DFF
 local SpellTargettext = ScenarioButton:CreateFontString("SpellTargettext", "BACKGROUND","GameFontHighlightSmallOutline")
 SpellTargettext:SetText("HawPlus 13.0\n升级技能插入模块,开关:\"Shift+鼠标右键\".")
 SpellTargettext:SetPoint("CENTER",0,-50)
+local Temptext = ScenarioButton:CreateFontString("Temptext", "BACKGROUND","GameFontHighlightSmallOutline")
+Temptext:SetText("tempText")
+Temptext:SetPoint("CENTER",0,50)
 --	ScenarioButton:RegisterEvent("UNIT_SPELLCAST_SENT");
 --	ScenarioButton:RegisterEvent("UNIT_SPELLCAST_SUCCEEDED");
 --	ScenarioButton:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED");
@@ -634,34 +637,50 @@ SpellTargettext:SetPoint("CENTER",0,-50)
 ------------------------ add by medony at 20180803 --------------------------------
 local API = System.WoWAPI;
 function msR(spell, target)
-	local text = SpellTargettext:GetText()
-	local spelltype, spellname, spellId = API.GetSpellItem(spell);
-	local name, _, icon, castTime, _, _, _ = GetSpellInfo(spellId)
-	if name~=text and icon then
-		SpellTargettext:SetText(format("%s",name))
-		ScenarioButton:SetNormalTexture(icon)
-	end
-	
-	msR_(spell, target)
-	if (type(target) == "string") then
-		target = strlower(strtrim(target));
-		if (target == "") then
-			target = nil;
+	if msR_(spell, target) then
+		local text = SpellTargettext:GetText()
+		local spelltype, spellname, spellId = API.GetSpellItem(spell);
+		local name, _, icon, castTime, _, _, _ = GetSpellInfo(spellId)
+		if name~=text and icon then
+			SpellTargettext:SetText(format("%s",name))
+			ScenarioButton:SetNormalTexture(icon)
 		end
+		if (type(target) == "string") then
+			target = strlower(strtrim(target));
+			if (target == "") then
+				target = nil;
+			end
+		end
+		return true;
+	else
+		return false;
 	end
 end
 
 function isSpell(spell)
 	local spellname = SpellTargettext:GetText()
 	if spellname == spell then
-		return true		
+		return true;	
 	end
 
-	return false
+	return false;
 end
 
 function setSpell(spell)
 	SpellTargettext:SetText(format("%s",spell))
+end
+
+function isTempText(spell)
+	local spellname = Temptext:GetText()
+	if spellname == spell then
+		return true;	
+	end
+
+	return false;
+end
+
+function setTempText(spell)
+	Temptext:SetText(format("%s",spell))
 end
 --------------------------  end -------------------------------------------------
 

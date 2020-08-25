@@ -43,7 +43,7 @@ function msRun(spell, target, cd, Face)
 			target = nil;
 		end
 	end
-	local isMacro,spelltype, spellname, spellid;
+	local isMacro, spelltype, spellname, spellid;
 	if (strsub(spell, 1, 1) == "/") then
 		isMacro = true;
 	else
